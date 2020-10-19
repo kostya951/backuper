@@ -1,0 +1,19 @@
+{
+    "name": "kostya/backuper",
+    "type": "project",
+    "require": {
+        "kostya/configuration": "dev-master",
+        "apache/log4php": "2.3.0"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "kostya\\backuper\\": "src"
+        }
+    }
+}
